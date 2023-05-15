@@ -1,0 +1,139 @@
+body{
+    margin: 0;
+    background-color: black;  
+    font-family: sans-serif;
+    color: rgb(247, 244, 244);
+    font-weight: 100;
+}
+header{
+    display: grid;
+    padding: 10px 0 5px 30px;
+    gap: 15px;
+}
+.header-elem{
+    display: flex;
+    gap: 10px;
+}
+.header-elem__img{
+    width: 18px;
+    height: 18px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+}
+.header-elem__txt{
+    font-size: 17px;
+    color: rgb(247, 246, 246);
+}
+.header-elem__img1{
+    background-image: url();
+}
+.header-elem__img2{
+    background-image: url();
+}
+.header-elem__img3{
+    background-image: url();
+}
+.header-elem__img4{
+    background-image: url();
+}
+.header-elem__img5{
+    background-image: url();
+}
+.main{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.container{
+    display: grid;
+    margin-bottom: 90px;
+}
+.main-elem{
+    background-color: rgb(67, 66, 66);
+    border-radius: 11px;
+    text-align: center;
+    width: 120px;
+} 
+.main-elem__img{
+    width: 20px;
+    height: 20px;
+    background-position: center;
+ 
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    margin-left: 56px;
+}
+.main-elem__img_database{
+    width: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    margin: 20px auto;
+}
+.main-elem__client{
+    height: 46px;
+    padding-top: 24px;
+}
+
+.main-elem__singleBlock{
+    height: 360px;
+    width: 136px;
+    display: grid;
+    align-content: space-between;
+    box-sizing: border-box;
+    padding: 15px  0;
+}
+.main-elem__rigth_blocks{
+    height: 90px;
+    width: 449px;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 36px 15px 22px 18px;
+    gap: 228px;
+    margin-bottom: 17px;
+}
+.main-elem__txt{
+    text-transform: none;
+    font-weight: bold;
+    
+}
+.main-elem__txt_up{
+    text-transform: uppercase;
+    
+}
+.main-elem__txt_up__service{
+    text-transform: uppercase;
+    
+    
+   
+    
+}
+
+.main-elem__img1{
+    background-image: url();
+}
+
+.main-elem__img2{
+    background-image: url();
+}
+
+.main-elem__img3{
+    background-image: url(image/cat.jpg);
+    
+}
+.container__LarBlo{
+    border: 2px dashed rgb(58, 58, 58);
+    display: flex;
+    gap: 10px;
+    border-radius: 12px;
+    /* padding: 99px  20px 20px 30px; */
+    padding: 100px 20px 0 32px;
+    margin-top: -100px;
+}   
